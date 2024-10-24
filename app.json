@@ -18,10 +18,46 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.plamenpowa.moviesplamen",
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
+      "networkSecurityConfig": {
+        "cleartextTrafficPermitted": true
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2132f9e-e935-4b3d-9f06-f07199d2cfab"
+      }
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "expo-secure-store",
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "${FACEBOOK_APP_ID}",
+          "clientToken": "${FACEBOOK_CLIENT_TOKEN}",
+          "displayName": "movies-plamen",
+          "scheme": "${FACEBOOK_SCHEME}",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
   }
 }

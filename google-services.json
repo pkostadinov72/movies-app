@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932123909138",
+    "project_id": "movies-plamen-f1e31",
+    "storage_bucket": "movies-plamen-f1e31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932123909138:android:360b9713e9bc24ce9c0ccb",
+        "android_client_info": {
+          "package_name": "com.plamenpowa.moviesplamen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBckEbc8ltxFu4zbcfLj8iYCbikLgvr_EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
