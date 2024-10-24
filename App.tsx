@@ -16,8 +16,13 @@ export default function App() {
   const { initializeNotifications } = useNotifications();
 
   useEffect(() => {
-    initializeNotifications(); // Call initializeNotifications here without calling it in the dependency array
-  }, [initializeNotifications]);
+    const subscribe = initializeNotifications();
+
+    return () => {
+      // Cleanup subscriptions
+      subscribe?.then((unsub) => unsub?.());
+    };
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>
