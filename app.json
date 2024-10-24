@@ -40,10 +40,10 @@
       [
         "react-native-fbsdk-next",
         {
-          "appID": "${FACEBOOK_APP_ID}",
-          "clientToken": "${FACEBOOK_CLIENT_TOKEN}",
+          "appID": "1036090978262125",
+          "clientToken": "e1e5fa4c7298e2d21013e5865856dd35",
           "displayName": "movies-plamen",
-          "scheme": "${FACEBOOK_SCHEME}",
+          "scheme": "fb1036090978262125",
           "advertiserIDCollectionEnabled": false,
           "autoLogAppEventsEnabled": false,
           "isAutoInitEnabled": true,
