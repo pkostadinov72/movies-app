@@ -43,7 +43,7 @@ To create a build of the application, run the following command:
 ```bash
 npm run android-build
 ```
-This will prompt you to install the build on your emulator if you're using one. If you’re using a physical device, scan the QR code located in the `https://expo.dev/accounts/plamenpowa/projects`, select your project , go into the builds tab, select your build and download it.
+This will prompt you to install the build on your emulator after the build is finished if you're using one. If you’re using a physical device, scan the QR code located in the `https://expo.dev/accounts/plamenpowa/projects`, select your project , go into the builds tab, select your build and download it.
 
 ## Running the Project
 
