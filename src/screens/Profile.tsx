@@ -21,6 +21,7 @@ const Profile = () => {
         <Text style={styles.label}>Last Name</Text>
         <Text style={styles.info}>{profile?.lastName}</Text>
 
+        {/* On Android, the email field doesn't get retrieved even if the [..., 'email', ...] permission will be request. In fact, the email field doesn't exist in the native Java SDK provided by Facebook at the moment */}
         <Text style={styles.label}>Email</Text>
         <Text style={styles.info}>{profile?.email}</Text>
       </View>
