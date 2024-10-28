@@ -10,7 +10,6 @@ Welcome to my React Native project built with Expo! This README will guide you t
 - [Running the Project](#running-the-project)
 - [Important Note](#important-note)
 
-  
 ## Prerequisites
 
 Make sure you have the following installed on your machine:
@@ -27,6 +26,7 @@ Make sure you have the following installed on your machine:
 
 1. **Log in to EAS:**
    First, log in to your EAS profile:
+
    ```bash
    eas login
    ```
@@ -40,23 +40,28 @@ Make sure you have the following installed on your machine:
 ## Building the Project
 
 To create a build of the application, run the following command:
+
 ```bash
 npm run android-build
 ```
-This will prompt you to install the build on your emulator after the build is finished if you're using one. If you’re using a physical device, scan the QR code located in the `https://expo.dev/accounts/plamenpowa/projects`, select your project , go into the builds tab, select your build and download it.
+
+This will prompt you to install the build on your emulator after the build is finished if you're using one. If you’re using a physical device, scan the QR code located in the `https://expo.dev/accounts/[username]/projects`, select your project , go into the builds tab, select your build and download it.
 
 ## Running the Project
 
 Once the build is complete, start the development server:
+
 ```bash
 npm start
 ```
 
 ### For Emulator:
+
 - Open Android Studio.
 - In your terminal, press `a` to launch the app on your emulator.
 
 ### For Physical Device:
+
 - Scan the QR code displayed in the terminal.
 
 > **Note:** Make sure you are using the dev build and not Expo Go.
@@ -64,6 +69,5 @@ npm start
 ## Important Note
 
 This app currently works only on Android. Due to Apple's requirements for a developer account, which involves a paid subscription, we are not supporting iOS builds at this time.
-
 
 ---
